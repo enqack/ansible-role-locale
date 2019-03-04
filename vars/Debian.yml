@@ -1,0 +1,5 @@
+---
+locale_requirements:
+  - locales-all
+
+locale_configuration_file: /etc/default/locale
