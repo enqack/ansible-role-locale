@@ -1,6 +1,8 @@
 locale
 ======
 
+[![Build Status](https://travis-ci.org/enqack/ansible-role-locale.svg?branch=master)](https://travis-ci.org/enqack/ansible-role-locale)
+
 Configure system locale
 
 
