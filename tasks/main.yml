@@ -21,6 +21,8 @@
   package:
     name: "{{ locale_requirements }}"
     state: "{{ locale_package_state }}"
+  when:
+    - ansible_distribution_release != 'trusty'
 
 - name: Generate locales
   command: locale-gen {{ item }}
