@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: locale
   author: enqack
   description: Configure system locale
 
